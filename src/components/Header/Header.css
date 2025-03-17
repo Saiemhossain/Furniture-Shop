@@ -1,0 +1,40 @@
+.header{
+  margin-top: 40px;
+  padding: 0 15px;
+}
+
+.header-img{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  place-content: center;
+text-align: center;
+
+}
+.header-img img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  padding: 10px 0;
+}
+
+@media (max-width:768px){
+  .header-img {
+ padding: 0 5px;
+ grid-template-columns: repeat(2, 1fr);
+ 
+  }
+  
+  
+}
+@media (max-width:544px){
+  .header-img {
+ grid-template-columns: repeat(1, 1fr);
+  }
+
+  .header-img img{
+    width: 95%;
+  }
+
+  
+}

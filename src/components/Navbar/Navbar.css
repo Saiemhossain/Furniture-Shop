@@ -1,0 +1,165 @@
+.nav-area{
+  background-image: url('../../assets/header.webp');
+  min-height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 20px;
+}
+
+.Nav .logo img{
+  width: 140px;
+}
+
+.navbar-menu ul{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar-menu ul a{
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(255,255,255);
+    font-family: "Inter", sans-serif;
+}
+
+.icon-area{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.icon-area{
+  position: relative;;
+}
+
+.icon i{
+  font-size: 20px;
+  color: #fff;
+
+}
+
+.icon span{
+  position: absolute;
+ top: -30px;
+right:-15px ;
+  background: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+align-items: center;
+justify-content: center;
+
+color: #fff;
+}
+
+.hamburger{
+  width: 30px;
+  display: none;
+}
+
+.open{
+  display: block;
+  color: #fff;
+}
+
+.close{
+  color: #fff;
+}
+
+.mobile-menu{
+display: none;
+background: #fff;
+position: fixed;
+padding: 15px 10px;
+width: 33%;
+color: rgb(38,34,47);
+height: 100%;
+top: 0;
+left: -100%;
+z-index: 1000;
+}
+
+.mobile-menu ul a{
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: 16px;
+ font-family: "Inter", sans-serif;
+}
+.hero-area{
+ padding: 150px 0;
+ text-align: center;
+}
+
+
+
+
+.hero-area h4{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.hero-area h1{
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.hero-btn{
+  padding: 8px 16px;
+  color: rgb(38,34,47);
+  background: #FBD84B;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+@media (max-width:768px) {
+  .navbar-menu{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+  }
+  .mobile-menu{
+    display: block;
+    width: 15%;
+  }
+
+  .hero-area h1{
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
+@media (max-width:605px) {
+  .mobile-menu{
+   
+    width: 20%;
+  }
+}
+@media (max-width:605px) {
+  .mobile-menu{
+   
+    width: 25%;
+  }
+
+  .hero-area h1{
+    font-size: 30px;
+  
+  }
+}
+

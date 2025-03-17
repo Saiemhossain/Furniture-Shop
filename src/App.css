@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.wrapper{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.checkout-page{
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+align-items: center;
+justify-content: center;
+gap: 20px;
+margin-top: 40px;
+}
+
+.checkout-page img{
+  width: 340px ;
+
+}
+
+.checkout-total{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.handlePlace{
+  padding: 8px 16px;
+  margin-top: 20px;
+  background: green;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 6px;
+}
+.removeOrder{
+   padding: 8px 16px;
+  margin-top: 20px;
+  background: red;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 6px;
+}
