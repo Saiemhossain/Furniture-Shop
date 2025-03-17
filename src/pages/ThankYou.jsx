@@ -1,5 +1,5 @@
 import thankYou from '../assets/thank.webp'
-import './ThankYou.css'
+import './Thankyou.css'
 const ThankYou = () => {
   return (
     <div className='thanks wrapper'>
